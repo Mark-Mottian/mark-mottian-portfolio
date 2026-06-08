@@ -107,7 +107,7 @@ Action: Rewrite
 
 ## Contact
 
-Email: [mark.mottian@gmail.com](mailto:mark.mottian@gmail.com)
-GitHub: https://github.com/Mark-Mottian
-LinkedIn: https://www.linkedin.com/in/mark-mottian
-Portfolio: https://mark-mottian-portfolio.onrender.com
+- Email: [mark.mottian@gmail.com](mailto:mark.mottian@gmail.com)
+- GitHub: [github.com/Mark-Mottian](https://github.com/Mark-Mottian)
+- LinkedIn: [linkedin.com/in/mark-mottian](https://www.linkedin.com/in/mark-mottian)
+- Portfolio: [mark-mottian-portfolio.onrender.com](https://mark-mottian-portfolio.onrender.com)
