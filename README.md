@@ -1,16 +1,113 @@
-# React + Vite
+# Mark Mottian Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal developer portfolio for Mark Mottian, a Junior MERN Stack Developer based in Bedfordview, Gauteng.
 
-Currently, two official plugins are available:
+Live site: https://mark-mottian-portfolio.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+This portfolio presents my selected software development work, technical skills, CV, GitHub profile and LinkedIn profile.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The site is designed to be simple, readable and project-focused. It highlights completed work with live demos, GitHub repositories, screenshots, demo videos and case studies.
 
-## Expanding the ESLint configuration
+## Featured projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### MarkItDone
+
+Full-stack MERN task management app with user authentication, email verification, password reset, protected routes, account deletion and Render deployment.
+
+Live demo: https://markitdone.onrender.com
+GitHub: https://github.com/Mark-Mottian/markitdone
+
+### iTunes Search Favourites
+
+React and Express app that searches the iTunes Search API through a backend proxy, validates searches and saves favourites locally.
+
+Live demo: https://itunes-search-favourites.onrender.com
+GitHub: https://github.com/Mark-Mottian/itunes-search-favourites
+
+### PoisePMS
+
+Java and MariaDB project management system using JDBC, SQL relationships, prepared statements, Docker Compose and Javadoc documentation.
+
+GitHub: https://github.com/Mark-Mottian/poise-pms-java-sql
+
+## Tech stack
+
+* React
+* JavaScript
+* Vite
+* React Router
+* React Bootstrap
+* CSS
+* Render
+
+## Features
+
+* Responsive portfolio layout
+* Project cards with live demo, GitHub and case study links
+* Individual project case study pages
+* Demo videos and screenshots
+* Sidebar navigation
+* Contact page with email, GitHub, LinkedIn and resume links
+* Resume PDF served from the public folder
+* React Router scroll-to-top behavior
+* Render static site deployment with rewrite support for frontend routes
+
+## Local setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Mark-Mottian/mark-mottian-portfolio.git
+```
+
+Move into the project folder:
+
+```bash
+cd mark-mottian-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build the production version:
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This portfolio is deployed on Render as a Static Site.
+
+Render settings:
+
+```text
+Build Command: npm install; npm run build
+Publish Directory: dist
+```
+
+React Router rewrite rule:
+
+```text
+Source: /*
+Destination: /index.html
+Action: Rewrite
+```
+
+## Contact
+
+Email: [mark.mottian@gmail.com](mailto:mark.mottian@gmail.com)
+GitHub: https://github.com/Mark-Mottian
+LinkedIn: https://www.linkedin.com/in/mark-mottian
+Portfolio: https://mark-mottian-portfolio.onrender.com
